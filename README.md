@@ -17,3 +17,5 @@ El programa debe poseer métodos que permitan:
 - Eliminar un computador de la tienda dada su marca.
 - Buscar un computador en la tienda dada su marca.
 - Listar la información de todos los computadores que tiene la tienda.
+
+![Diagrama de Clases](./diagram/ex_computers_shop.drawio.png)
