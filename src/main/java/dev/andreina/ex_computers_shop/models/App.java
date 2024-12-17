@@ -1,4 +1,4 @@
-package dev.andreina.ex_computers_shop;
+package dev.andreina.ex_computers_shop.models;
 
 /**
  * Hello world!
