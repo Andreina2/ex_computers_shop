@@ -6,11 +6,11 @@ import java.util.List;
 public class Store {
     private String storeName;
     private String ownerFullName;
-    private String storeTaxIdentifier;
+    private int storeTaxIdentifier;
     private List <Computer> computers;
 
 
-    public Store(String storeName, String ownerFullName, String storeTaxIdentifier) {
+    public Store(String storeName, String ownerFullName, int storeTaxIdentifier) {
         this.storeName = storeName;
         this.ownerFullName = ownerFullName;
         this.storeTaxIdentifier = storeTaxIdentifier;
@@ -28,7 +28,7 @@ public class Store {
     }
 
 
-    public String getStoreTaxIdentifier() {
+    public int getStoreTaxIdentifier() {
         return storeTaxIdentifier;
     }
 

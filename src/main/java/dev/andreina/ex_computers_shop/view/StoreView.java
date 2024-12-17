@@ -107,7 +107,7 @@ public class StoreView {
     }
 }
     private void listInformationOfAllComputer() {
-        System.out.println("List of all computers in the store");
+        System.out.println("List of all computers in the store:");
         for (Computer computer : storeController.listInformationOfAllComputer()) {
         System.out.println(computer);
 
