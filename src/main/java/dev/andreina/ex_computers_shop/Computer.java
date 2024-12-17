@@ -1,13 +1,13 @@
 package dev.andreina.ex_computers_shop;
 
-public class Computers {
+public class Computer {
     private String computerBrand;
     private int memory;
     private String processorCharacteristics;
     private String operatingSystem;
     private int price;
 
-    public Computers(String computerBrand, int memory, String processorCharacteristics, String operatingSystem,
+    public Computer(String computerBrand, int memory, String processorCharacteristics, String operatingSystem,
             int price) {
         this.computerBrand = computerBrand;
         this.memory = memory;
@@ -57,7 +57,16 @@ public class Computers {
     }
 
     
-
+//method show information of computers
+@Override
+public String toString() {
+    return "Computer{" + "brand='" + computerBrand + '\'' +
+                ", memory=" + memory + " GB" +
+                ", processor='" + processorCharacteristics + '\'' +
+                ", operatingSystem='" + operatingSystem + '\'' +
+                ", price=$" + price +
+                '}';
+}
     
 
 
