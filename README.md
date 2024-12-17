@@ -3,7 +3,7 @@
 Se requiere desarrollar un programa que modele una tienda de computadores. La tienda posee los siguientes atributos:
 - Nombre de la tienda.
 - Propietario de la tienda.
-- Identificador tributario de la tienda
+- Identificador tributario de la tienda.
 
 Los computadores de la tienda tienen los siguientes atributos:
 - Marca del computador.
