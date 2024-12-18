@@ -2,6 +2,8 @@ package dev.andreina.ex_computers_shop.models;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 
 public class StoreTest {
@@ -51,6 +53,19 @@ public class StoreTest {
 
     @Test
     void testListInformationOfAllComputer() {
+        Store store = new Store("Technology Store", "Pedro Perez", 567894112);
+        Computer computer1= new Computer("Dell", 70, "Intel5", "Windows", 800);
+        Computer computer2= new Computer("Sony", 90, "Intel7", "Windows", 900);
+        Computer computer3= new Computer("HP", 90, "Intel7", "Windows", 900);
+        Computer computer4= new Computer("Acer", 70, "Intel3", "Windows", 700);
+        
+        store.addComputer(computer1);
+        store.addComputer(computer2);
+        store.addComputer(computer3);
+        store.addComputer(computer4);
+        
+        List<Computer> computer= store.listInformationOfAllComputer();
+        assertEquals(4, computer.size());
 
     }
 
