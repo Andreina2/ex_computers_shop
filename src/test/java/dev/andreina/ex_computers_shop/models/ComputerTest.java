@@ -89,9 +89,9 @@ public class ComputerTest {
 
         String expected=    "Computer{" + "brand='Lenovo'" +
                             ", memory=32" + " GB" +
-                ", processor='Intel5'" +
-                ", operatingSystem='Windows'" +
-                ", price=$700}";
+                            ", processor='Intel5'" +
+                            ", operatingSystem='Windows'" +
+                            ", price=$700}";
                             assertEquals(expected, computer.toString());
                             
     }
