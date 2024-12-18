@@ -51,7 +51,7 @@ public class Store {
             return false;
     
 }
-
+    // method search computers to the store
     public Computer lookComputerGivenItsBrand(String brand) {
         for (Computer computer: computers) {
             if (computer.getComputerBrand().equalsIgnoreCase(brand)) {
@@ -61,7 +61,7 @@ public class Store {
     }
         return null;
 }
-
+    // method list computers to the store
         public List <Computer> listInformationOfAllComputer() {
             return computers;
         }
