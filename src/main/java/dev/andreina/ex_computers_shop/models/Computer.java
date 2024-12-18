@@ -7,8 +7,7 @@ public class Computer {
     private String operatingSystem;
     private int price;
 
-    public Computer(String computerBrand, int memory, String processorCharacteristics, String operatingSystem,
-            int price) {
+    public Computer(String computerBrand, int memory, String processorCharacteristics, String operatingSystem, int price) {
         this.computerBrand = computerBrand;
         this.memory = memory;
         this.processorCharacteristics = processorCharacteristics;

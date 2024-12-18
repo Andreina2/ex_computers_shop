@@ -64,6 +64,7 @@ public class StoreView {
 
     System.out.println("Enter memory:");
     int memory = scanner.nextInt();
+    scanner.nextLine();
 
     System.out.println("Enter processor characteristics:");
     String processorCharacteristics = scanner.nextLine();
@@ -73,9 +74,11 @@ public class StoreView {
 
     System.out.println("Enter price computer:");
     int price = scanner.nextInt();
+    scanner.nextLine();
 
     Computer computer= new Computer(brandComputer, memory, processorCharacteristics, operatingSystem, price);
     storeController.addComputer(computer);
+    
     System.out.println("Computer added successfully.");
 
 }

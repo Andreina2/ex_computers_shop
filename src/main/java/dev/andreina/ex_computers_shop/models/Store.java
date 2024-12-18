@@ -35,7 +35,7 @@ public class Store {
     // method add computers to the store
     public void addComputer (Computer computer) {
         computers.add(computer);
-        System.out.println("Computer added successfully" + computer.getComputerBrand());
+    
     }
 
     // method delete computers to the store
@@ -59,8 +59,7 @@ public class Store {
             }
 
     }
-            System.out.println("Computer not found:" + brand);
-            return null;
+        return null;
 }
 
         public List <Computer> listInformationOfAllComputer() {
