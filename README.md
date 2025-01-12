@@ -18,4 +18,8 @@ El programa debe poseer métodos que permitan:
 - Buscar un computador en la tienda dada su marca.
 - Listar la información de todos los computadores que tiene la tienda.
 
+# Diagramas
+
+## Diagrama de clases
+
 ![Diagrama de Clases](./diagram/ex_computers_shop.drawio.png)
